@@ -1,8 +1,8 @@
 module Jquery
-  module Scrollbar
+  module Easy
     module Rails
       class Engine < ::Rails::Engine
-        initializer 'Modernizr precompile hook', :group => :all do |app|
+        initializer 'Precompile hook', :group => :all do |app|
           app.config.assets.precompile += ['jquery.easy.js']
         end
       end

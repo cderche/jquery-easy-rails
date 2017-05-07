@@ -1,9 +1,8 @@
-require "jquery/easy/rails/version"
-
 module Jquery
   module Easy
     module Rails
-      # Your code goes here...
+      require 'jquery/easy/rails/engine'
+      require 'jquery/easy/rails/version'
     end
   end
 end
